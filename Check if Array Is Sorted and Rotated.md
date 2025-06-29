@@ -15,17 +15,18 @@ so after traversing the array we have 3 cases
 3. otherwise array is not sorted
 
 ## Solution :
----
-{
-    bool check(vector<int>& nums) {
-        int n= nums.size(),c=0;
-        if(n<=1) return true;
-        for (int i=0;i<n-1;i++){
-            if (nums[i]>nums[i+1]) c++;
-        }
-        if(c==0 && nums[0]<=nums[n-1]) return true;
-        else if (c==1 && nums[0]>=nums[n-1]) return true;
-        else return false;
+```cpp
+bool check(vector<int>& nums) {
+    int n = nums.size(), c = 0;
+    if (n <= 1) return true;
+
+    for (int i = 0; i < n - 1; i++) {
+        if (nums[i] > nums[i + 1]) c++;
     }
+
+    if (c == 0 && nums[0] <= nums[n - 1]) return true;
+    else if (c == 1 && nums[0] >= nums[n - 1]) return true;
+    else return false;
 }
----
+```
+
