@@ -28,5 +28,5 @@
 20. [Subarray sum equals K](./560.%20Subarray%20Sum%20Equals%20K.md)<br>
 21. [Pascal's Triangle](./118.%20Pascal's%20Triangle.md)<br>
 22. [Majority element II](./229.%20Majority%20Element%20II.md)<br>
-23. [3 Sum --- ](./)<br>
+23. [3 Sum ](./15.%203Sum.md)<br>
 
