@@ -29,4 +29,6 @@
 21. [Pascal's Triangle](./118.%20Pascal's%20Triangle.md)<br>
 22. [Majority element II](./229.%20Majority%20Element%20II.md)<br>
 23. [3 Sum ](./15.%203Sum.md)<br>
+24. [4 Sum ---]()<br>
+25. [Merge Intervals](./56.%20Merge%20Intervals.md)<br>
 
